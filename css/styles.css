@@ -1,0 +1,120 @@
+header {
+/*	background-color: greenyellow;
+*/	box-shadow: 1px 1px 2px #ccc;
+}
+
+nav {
+	margin: 0 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	margin: 0 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+nav img {
+	height: 50px;
+	width: 50px;
+}
+
+
+/*content*/
+.layout {
+	display: flex;
+}
+
+.layout aside {
+	width: 20%;
+	height: 100vh;
+	margin-top: 60px;
+}
+
+.layout aside ul {
+	list-style: none;
+}
+
+.layout aside ul li {
+	margin-bottom: 20px;
+}
+
+.layout aside ul a {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+main .search {
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+
+.search input {
+	border-radius: 10px;
+	padding: 10px;
+	width: 30%;
+	border: 2px solid #ccc;
+}
+
+.layout main {
+	width: 80%;
+	height: 100vh;
+	padding: 20px;
+}
+.container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.card {
+	margin-right: 20px;
+	margin-bottom: 50px;
+	height: 300px;
+	width: 200px;
+	box-shadow: 1px 1px 3px #ccc;
+	text-align: center;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+
+.card img {
+	height: 120px;
+	width: 200px;
+}
+
+.card p {
+	font-size: 15px;
+}
+.card h3 {
+	color: darkred;
+	font-size: 18px;
+}
+
+
+.card button {
+	padding: 5px;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 20px;
+	transition: 1s;
+	width: 100px;
+
+}
+
+.card button:hover {
+	background-color: black;
+	transition: 1s;
+	color: white;
+}
